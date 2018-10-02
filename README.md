@@ -19,3 +19,4 @@ Every field should has at least one validation - required, min, max, minlength, 
 
 The final solution should be hosted on Github Pages and should show Success page after submit.
 
+https://ultimo2905.github.io/Homework-03.10.2018-/.
