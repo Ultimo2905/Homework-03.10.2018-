@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" " href="style/style.css">
+</head>
+<body>
+	
+	<form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+
+	 
+
+		    <h1>Personal information:</h1>
+
+			<div clas="text_information">	   
+				  First name:<br>
+			    <input type="text" name="firstname"  placeholder="Enter your Name" autofocus required ><br>
+
+			     Last name:<br>
+			    <input type="text" name="surname"  placeholder="Enter your Last name" required><br>
+			     E-mail:<br>
+			    <input type="email" name="email" placeholder="Enter your email" required autocomplete="off"><br> 
+
+			    User password:<br>
+				<input type="password" name="psw" size="31" minlength="5" value="" m placeholder="Enter yuor password with min 5  symbol" " required><br>
+				<br>
+
+				A little bit about yourself::<br>
+				<textarea name="comment" id="advanced"
+			                  rows="3" cols="33" maxlength="200"
+			                  wrap="hard" required  autocomplete="disabled">
+			    </textarea>
+			    <br>
+			</div>
+
+			<label class="gender"  >
+				<h2>Your gender</h2>	
+				<input type="radio" name="gender" class="radio" value="male">Male
+				<input type="radio" name="gender" class="radio" value="female">Female
+				</labellabel>
+			<br>
+
+			<label class="country">
+				<h2>Your country</h2>	
+				<input type="radio" name="country" class="radio" value="UKRAINE"> Ukraine
+				<input type="radio" name="countri" class="radio" value="USA"> USA	
+			</label>
+			<br>
+
+			<label class="checkbox">
+				<h3>What you have</h3>
+				<input type="checkbox" name="vehicle1" value="money" > I have a money
+				<input type="checkbox" name="vehicle2" value="Car" > I have a car
+				<input type="checkbox" name="vehicle3" value="Boat"  > I have a boat
+			</label>
+			<br><br>
+
+
+			<label class="time">
+				<h3>What time</h3>
+				<input type="time" name="time" placeholder=" " required>
+			</label>
+			
+
+				<label class="data_data">
+				<h3>What date</h3>
+				<input type="date" name="date" required>
+			</label>
+			
+
+			<label class="color">
+				<h3>What color your likes?</h3>
+				<input type="color" name="color" >
+			</label>
+			
+
+			<label class="number_registration">
+				<h3>What is number of registration?</h3>
+				<input type="number" name="number_registration" min="1" max="99" required placeholder="    ">
+			</label>
+			
+
+			<label class="range">
+				<p>Znachenie Pofigizmu:</p>
+				<input type="range" name="points" min="0" max="10">
+			</label> 
+			
+
+			<div class="button_submit">
+				<button type="submit" value="Submit"> Send your message 
+				</button>
+			</div>
+			
+
+			<div class="button_reset">
+				<button type="reset" value="reset"> reset
+				</button>
+			</div> 
+
+		 <input type="hidden" id="readonly_numbr" name="readonly_numbr" readonly >
+		    
+	</form>
+
+</body>
+
+</html>
